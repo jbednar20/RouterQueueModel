@@ -21,5 +21,5 @@ Router Queue Model is a GNU Octave tool for the characterization and analysis of
 **plotBoolean** : If TRUE, then a Queue Delay vs. Utilization rate plot will output; If FALSE, then do nothing <br> <br>
 
 ## OUTPUT VARIABLES 
-**Wq** : Matrix which contains the average queuing delay seen at the router for utilization rates ranging from 0% to 100% (seconds) <br> <br>
+**Wq_ms** : Matrix which contains the average queuing delay (milliseconds) seen at the router for utilization rates ranging from 0% to 100% <br> <br>
 **max_devices** : The theoretical maximum number of devices that can be supported by the router <br> <br>
